@@ -12,10 +12,10 @@
         <tbody>
           {{#each list}}
               <tr>
-                  <th scope="row">{{data.id}}</th>
-                  <td>{{data.title}}</td>
-                  <td>${{data.price}}</td>
-                  <td><img style="height: 3rem;" src="{{data.thumbnail}}" alt=""></td>
+                  <th scope="row">{{this.id}}</th>
+                  <td>{{this.title}}</td>
+                  <td>${{this.price}}</td>
+                  <td><img style="height: 3rem;" src="{{this.thumbnail}}" alt=""></td>
                 </tr>
           {{/each}}
         </tbody>
