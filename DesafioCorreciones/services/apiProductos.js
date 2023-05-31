@@ -1,4 +1,4 @@
-const Contenedor = require('../class/contenedorMemoria.js')
+const Contenedor = require('../dao/contenedorMemoria.js')
 const { generarProducto } =  require('../utils/generarProducto')
 
 class ApiProductos extends Contenedor {
